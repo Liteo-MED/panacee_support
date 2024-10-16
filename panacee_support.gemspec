@@ -5,8 +5,8 @@ require 'panacee_support/version'
 Gem::Specification.new do |spec|
   spec.name          = 'panacee_support'
   spec.version       = PanaceeSupport::VERSION
-  spec.authors       = ['Panacee Back team']
-  spec.email         = ['tech@panacee.ai']
+  spec.authors       = ['Liteomed team']
+  spec.email         = ['contact@liteomed.com']
 
   spec.summary       = 'Shared libraries accross Panacee projects'
   spec.homepage      = 'https://github.com/Liteo-Med/panacee_support'
@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
                    'README.md']
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'rails', '>= 7.1', '< 7.2'
+  spec.add_dependency 'rails', '>= 7.1'
   spec.add_dependency 'rainbow'
 
   spec.add_development_dependency 'bundler', '~> 2.0'
